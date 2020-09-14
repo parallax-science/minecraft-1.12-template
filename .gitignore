@@ -1,5 +1,28 @@
+# Eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+eclipse
+
+# Intellij
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# Gradle
+build
 .gradle
-/build/
+
+# Other
+run
+
+# Files from Forge MDK
+forge*changelog.txt
 
 # Ignore Gradle GUI config
 gradle-app.setting
