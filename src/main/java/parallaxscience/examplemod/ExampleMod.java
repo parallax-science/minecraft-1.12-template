@@ -1,4 +1,4 @@
-package parallaxscience.modname;
+package parallaxscience.examplemod;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -13,18 +13,18 @@ import org.apache.logging.log4j.Logger;
  * @author CapdinCrando
  */
 @SuppressWarnings("unused")
-@Mod(modid = ModName.MODID, name = ModName.NAME, version = ModName.VERSION, acceptedMinecraftVersions = ModName.MC_VERSION)
-public class ModName
+@Mod(modid = ExampleMod.MODID, name = ExampleMod.NAME, version = ExampleMod.VERSION, acceptedMinecraftVersions = ExampleMod.MC_VERSION)
+public class ExampleMod
 {
 	/**
 	 * The MODID is the unique id for the mod
 	 */
-	public static final String MODID = "modid";
+	public static final String MODID = "examplemod";
 
 	/**
 	 * The user friendly name of the mod
 	 */
-	static final String NAME = "Mod Name";
+	static final String NAME = "Example Mod";
 
 	/**
 	 * The mod version
